@@ -1,0 +1,109 @@
+.header {
+
+    background: #fff;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 15px;
+    width: 1230px;
+}
+
+.header__logo {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header__inner-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    font-size: 14px;
+}
+
+li {
+    list-style: none;
+    margin-left: 40px;
+
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.management__content {
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    padding: 30px 15px;
+    width: 1230px;
+}
+
+.management__heading {
+    font-size: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.management-table {
+    border-top: 1px solid #aaa;
+
+}
+
+.management-table__inner {
+    width: 100%;
+}
+
+.management-table__header {
+    padding: 15px;
+    width: 20%;
+    border-bottom: 1px solid #aaa;
+    font-weight: bold;
+}
+.record-data::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.management-table__data {
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+
+}
+
+.record-data {
+    margin: 10px 50px;
+    border:none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+.management-table__row:last-child .management-table__header,
+.management-table__row:last-child .management-table__data {
+    border-bottom-width: 0px;
+}
+
+footer {
+    text-align: center;
+}

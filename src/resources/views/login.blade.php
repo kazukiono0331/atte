@@ -24,7 +24,8 @@
             <div class="authenticated__heading">
                 <h1>ログイン</h1>
             </div>
-        <form class="form">
+        <form class="form" action="/" method="post">
+        @csrf
             <div class="form__group">
                 <div class="form__input--text">
                 <input type="email" name="email" placeholder="メールアドレス" />
@@ -51,6 +52,9 @@
         </form>
         </div>
     </main>
+    <footer>
+        <small>Atte, inc.</small>
+    <footer>
 </body>
 
 </html>

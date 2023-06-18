@@ -24,7 +24,8 @@
             <div class="register__heading">
                 <h1>会員登録</h1>
             </div>
-        <form class="form">
+        <form class="form" action="/login" method="post">
+        @csrf
             <div class="form__group">
                 <div class="form__input--text">
                 <input type="text" name="name" placeholder="名前" />
@@ -62,11 +63,16 @@
             </div>
             <p class="form__login--announce">アカウントをお持ちの方はこちら</p>
             <div class="form__button--login">
-                <button class="form__button--login-submit" type="submit">ログイン</button>
+                <button class="form__button--login-submit" type="submit"
+                    onclick="loction.href='/login'">ログイン
+                </button>
             </div>
         </form>
         </div>
     </main>
+    <footer>
+        <small>Atte, inc.</small>
+    <footer>
 </body>
 
 </html>

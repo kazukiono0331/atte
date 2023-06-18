@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegisteredUserController;
+use App\Http\Controllers\AuthenticatedSessionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +15,7 @@ use App\Http\Controllers\RegisteredUserController;
 |
 */
 
-Route::get('/', [RegisteredUserController::class, 'register']);
+Route::get('/register', [RegisteredUserController::class, 'register']);
+Route::get('/login', [RegisteredUserController::class, 'store']);
+Route::post('/login', [AuthenticatedSessionController::class, 'login']);
+Route::post('/', [AuthenticatedSessionController::class, 'record']);

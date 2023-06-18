@@ -28,6 +28,10 @@
     text-align: center;
 }
 
+h1 {
+    font-size: 16px;
+}
+
 .form {
     margin: 0 auto;
     width: 70%;
@@ -85,4 +89,8 @@
     margin: 0px;
     color: #566EBA;
     font-weight:bold;
+}
+
+footer {
+    text-align: center;
 }

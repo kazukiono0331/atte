@@ -1,0 +1,101 @@
+.header {
+
+    background: #fff;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 15px;
+    width: 1230px;
+}
+
+.header__logo {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header__inner-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    font-size: 14px;
+}
+
+li {
+    list-style: none;
+    margin-left: 40px;
+
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.record__content {
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    padding: 30px 15px;
+    width: 1230px;
+}
+
+.record__heading {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.form__button {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+    height: 150px;
+    border: none;
+    border-radius: 3px;
+    background: #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.form__button-submit,
+.form__button-submit--gray {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    margin: auto;
+    appearance: none;
+    border: none;
+    outline: none;
+    background-color: unset;
+}
+
+.form__button-submit--gray {
+    color: #757575;
+}
+
+footer {
+    text-align: center;
+}
